@@ -1,6 +1,6 @@
-from modules.wikipedia import wikipedia_search_query
-from modules.wolframalpha import wolfram_search_query
-from modules.recognize_generate import *
+from backend.wikipedia import wikipedia_search_query
+from backend.wolframalpha import wolfram_search_query
+from backend.recognize_generate import *
 
 
 def process_query(query):
